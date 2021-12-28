@@ -9,10 +9,10 @@ export function Header({ onOpenNewTransactionMoal}: HeaderProps ) {
     return (
         <Container>
             <Content>
-            <img src={logoImg} alt="dtmoney" />
-            <button type="button" onClick={onOpenNewTransactionMoal}>
-                Nova transação
-            </button>
+                <img src={logoImg} alt="dtmoney" />
+                <button type="button" onClick={onOpenNewTransactionMoal}>
+                    Nova transação
+                </button>
             </Content>
         </Container>
     )

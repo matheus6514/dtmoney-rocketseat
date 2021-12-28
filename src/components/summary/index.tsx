@@ -49,7 +49,6 @@ export function Summary() {
                     }).format(summary.withdraws)}
                 </strong>
             </div>
-
             <div className="highlight-background">
                 <header>
                     <p>Total</p>
